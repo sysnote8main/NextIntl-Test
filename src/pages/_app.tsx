@@ -1,4 +1,4 @@
-import { IntlProvider, NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
 import { useRouter } from 'next/router';
 import '../styles/globals.css';
 import { AppProps } from 'next/app';

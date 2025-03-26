@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     locales: ['en', 'ja'],
     defaultLocale: 'en',
   },
+  distDir: "build",
 };
 
 export default nextConfig;
