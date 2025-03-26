@@ -1,2 +1,6 @@
+page-title: "NextIntl-Text(Japanese)"
 greeting: "こんにちは！"
 description: "これは next-intl を使った Next.js アプリです。"
+$site-name: "NextIntlのテスト"
+$site-description: "シンプルな説明文"
+$og-image-path: "/images/ja/ogp.png"

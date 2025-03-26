@@ -1,2 +1,6 @@
+page-title: "NextIntl-Text(English)"
 greeting: "Hello!"
 description: "This is a simple Next.js app with next-intl."
+$site-name: "NextIntl-Test"
+$site-description: "Example description"
+$og-image-path: "/images/en/ogp.png"

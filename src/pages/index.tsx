@@ -4,12 +4,17 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { parse } from 'yaml';
 import path from 'node:path';
+import { MyDefaultSeo } from '@/components/seo';
+import { NextSeo } from 'next-seo';
 
 export default function Home() {
   const t = useTranslations("");
+  const title = t("page-title")
 
   return (
     <div>
+      <MyDefaultSeo />
+      <NextSeo title={title} openGraph={{ title }} />
       <h1>{t('greeting')}</h1>
       <p>{t('description')}</p>
 
